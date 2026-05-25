@@ -1092,7 +1092,7 @@ EbErrorType svt_av1_set_default_params(EbSvtAv1EncConfiguration *config_ptr) {
     config_ptr->fgs_table                         = NULL;
     config_ptr->enable_variance_boost             = true;
     config_ptr->variance_boost_strength           = 2;
-    config_ptr->variance_octile                   = 5;
+    config_ptr->variance_octile                   = 6;
     config_ptr->tf_strength                       = 1;
     config_ptr->variance_boost_curve              = 0;
     config_ptr->luminance_qp_bias                 = 0;
@@ -1111,7 +1111,7 @@ EbErrorType svt_av1_set_default_params(EbSvtAv1EncConfiguration *config_ptr) {
     config_ptr->sharp_tx                          = 1;
     config_ptr->hbd_mds                           = 0;
     config_ptr->complex_hvs                       = 0;
-    config_ptr->noise_adaptive_filtering          = 0;
+    config_ptr->noise_adaptive_filtering          = 2;
     return return_error;
 }
 static const char *tier_to_str(unsigned in) {
