@@ -198,7 +198,7 @@ jobs:
           "%SOURCE_DIR%\Bin\Release\SvtAv1EncApp.exe" ^
             -i "%PGO_VIDEO_DIR%\park_joy_420_720p50.y4m" ^
             --preset 2 ^
-            --tune 5 ^
+            --tune 3 ^
             --enable-tf 2 ^
             --output NUL
 
